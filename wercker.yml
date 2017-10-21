@@ -1,0 +1,8 @@
+box: node:7.10
+
+build:
+  steps:
+    - npm-install
+    - script:
+      name: test
+      code: npm test
