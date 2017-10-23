@@ -1,5 +1,4 @@
-box: node:7.10
-
+box: tekiomo-dark-site/box-wercker-test@0.0.1
 build:
   steps:
     - npm-install
