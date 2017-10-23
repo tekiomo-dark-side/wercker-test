@@ -6,3 +6,7 @@ build:
     - script:
       name: test
       code: npm test
+  after-steps:
+    - slack-notifier:
+        url: $SLACK_WEBHOOK_URL
+        channel: sandbox
